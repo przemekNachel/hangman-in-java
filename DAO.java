@@ -2,6 +2,7 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 
+
 public class DAO{
 
     private String string;
@@ -19,6 +20,7 @@ public class DAO{
     }
 
     private void stringToFile(String string, String filename){
+        
         try {
             Files.write(Paths.get(filename), string.toString().getBytes());
         } catch(IOException e) {
