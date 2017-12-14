@@ -2,10 +2,10 @@ public class Game{
 
     long start;
     long end;
-    Capital capital
+    Capital capital;
 
     public Game(){
 
-        this.start = System.nanoTime();
+        this.capital = ne
     }
 }
